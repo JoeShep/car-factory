@@ -66,8 +66,8 @@ const buildCar = () => {
   return chassisDrive
 }
 
-const carLot = []
+const carList = []
 
 for ( let i = 0; i < 50; i++) {
-  carLot.push(buildCar())
+  carList.push(buildCar())
 } 
